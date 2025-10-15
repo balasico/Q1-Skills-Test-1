@@ -1,0 +1,156 @@
+body{
+	background-image: url('https://i.pinimg.com/736x/26/33/59/2633597e0fc493a7b776d7e87042cdbe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #253238;
+  font-family: Courier New;
+}
+
+.header{
+	margin: auto;
+	padding: 0;
+	width: 550px;
+	border: 5px solid #5D6B74;
+	border-radius: 13px;
+	background-color: #E6E8E7;
+}
+
+img{
+	height: 150px;
+	width: 100%;
+	border-radius-top: 10px;
+}
+
+.headerTEXT{
+	margin-left: 15px;
+}
+
+.footer{
+	color: ;
+	text-align: center;
+	font-size: 10px;
+}
+
+.ContactMe_form{
+	color: #253238; /*change for labels*/
+
+	width: 500px;
+	margin: auto;
+	padding: 25px;
+
+	border: 5px solid #5D6B74;
+	border-radius: 13px;
+	background-color: #E6E8E7;
+}
+
+::placeholder {
+  color: #5D6B74;
+}
+
+input[type="text"]{
+	color: #253238;
+	font-size: 14px;
+	font-family: Courier New;
+
+	padding: 5px;
+	background-color: #CED0CF;
+	border-color: #5D6B74;
+	border-radius: 10px;
+
+	width: 100%;
+}
+
+input[type="email"]{
+	color: #253238;
+	font-size: 14px;
+	font-family: Courier New;
+
+	padding: 5px;
+	background-color: #CED0CF;
+	border-color: #5D6B74;
+	border-radius: 10px;
+
+	width: 100%;
+}
+
+input[type="number"]{
+	color: #253238;
+	font-size: 14px;
+	font-family: Courier New;
+
+	padding: 5px;
+	background-color: #CED0CF;
+	border-color: #5D6B74;
+	border-radius: 10px;
+
+	width: 100%;
+}
+
+.radio , .checkbox{
+	color: #5D6B74;/*same as placeholder*/
+}
+
+input[type="radio"]{
+	accent-color: #5D6B74;
+}
+
+input[type="checkbox"]{
+	accent-color: #5D6B74;
+}
+
+select{
+	color: #5D6B74;/*same as placeholder*/
+	font-size: 14px;
+	font-family: Courier New;
+
+	padding: 5px;
+	background-color: #CED0CF;
+	border-color: #5D6B74;
+	border-radius: 10px;
+
+	width: 102%;
+}
+
+textarea{
+	color: #253238;
+	font-family: Courier New;
+	font-size: 14px;
+
+	padding: 5px;
+	background-color: #CED0CF;
+	border-color: #5D6B74;
+	border-radius:10px;
+
+	width: 100%;
+}
+
+button{
+	font-family: Courier New;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+
+	padding: 5px;
+	background-color: #253238;
+	border-color: white;
+	border-radius: 10px;
+	width: 100%;
+}
+
+button:hover{
+	font-family: Courier New;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+
+	padding: 5px;
+	background-color: #9EB4C1;
+	border-color: white;
+	border-radius: 10px;
+	position: center;
+	width: 100%;
+}
+
